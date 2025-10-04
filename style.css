@@ -1,1 +1,39 @@
+body
+{
+	background-color: #104F22;
+}
+
+img.banner
+{
+	width: 40vw;
+	display: block;
+	margin: 20px auto;
+}
+
+h1.caption {
+	color: black;
+	display: inline-block;
+	text-align: left !important;
+	font-size: 2vw;
+}
+
+h1.mega {
+	    text-align: center;
+            color: orange;
+            animation: wave 2s infinite;
+            display: inline-block;
+            transform-origin: 70% 70%;
+            font-size: 4vw;
+        }
+
+        @keyframes wave {
+            0% { transform: rotate(0deg); }
+            10% { transform: rotate(14deg); }
+            20% { transform: rotate(-8deg); }
+            30% { transform: rotate(14deg); }
+            40% { transform: rotate(-4deg); }
+            50% { transform: rotate(10deg); }
+            60% { transform: rotate(0deg); }
+            100% { transform: rotate(0deg); }
+        }
 
