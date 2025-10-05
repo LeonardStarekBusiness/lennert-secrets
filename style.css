@@ -18,10 +18,13 @@ h1.caption {
 }
 
 h1.mega {
-	    text-align: center;
+	    font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+            font-weight: bold;
+	    -webkit-text-stroke: 0.2vw black;
+            text-stroke: 0.2vw black;
+            text-align: center;
             color: orange;
             animation: wave 2s infinite;
-            display: inline-block;
             transform-origin: 70% 70%;
             font-size: 4vw;
         }
